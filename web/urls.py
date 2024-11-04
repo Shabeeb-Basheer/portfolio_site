@@ -10,6 +10,6 @@ urlpatterns = [
     path("gallery/", views.gallery, name="gallery"),
     path("contact/", views.contact, name="contact"),
     path("newsandupdates/", views.blog, name="blog"),
-    path("blog_details/<str:slug>/", views.blog_details, name="blog_details"),
+    path("blog/<str:slug>/", views.blog_details, name="blog_details"),
 
 ]

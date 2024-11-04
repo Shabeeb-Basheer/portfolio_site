@@ -1,12 +1,13 @@
 import json
 from django.shortcuts import render
-from .forms import ContactForm
 from django.http import HttpResponse
-from .models import Gallery, Blog,Experience,Award, GroupOfCompany
+
+from .forms import ContactForm
+from .models import Gallery, Blog, Experience, Award, GroupOfCompany
 
 
 def index(request):
-    galleries = Gallery.objects.all()[:3]
+    galleries = Gallery.objects.all()[:4]
     blogs = Blog.objects.all()[:4]
     context = {
         "is_index": True,

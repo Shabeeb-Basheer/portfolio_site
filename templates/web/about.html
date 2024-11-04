@@ -6,17 +6,16 @@
         <section class=" pt-140 pb-120 mt-5" data-aos="zoom-in">
             <div class="container">
                 <div class="about-grid">
-                    <img class="mx-auto" src="{% static 'web/images/about/about2.png' %}" alt="about me">
+                    <img class="mx-auto" src="{% static 'web/images/about/hero2.png' %}" alt="about me">
                     <div class="fw-bold font-Syne leading-none d-flex flex-wrap flex-column gap-y-2">
                         
                         <h3 class="text-dark section-title">
-                            Mark Henry
+                            Ajmal Sha
                         </h3>
 
-                        <h4 class="text-dark text-2xl mt-3 mb-4">Product Designer</h4>
+                        <h4 class="text-dark text-2xl mt-3 mb-4">Founder Qeat</h4>
                         <p class="text-dark text-xl fw-bold font-Syne leading-7 mb-6">
-                            A Product Designer & Developer and I am in the game for over 7+ years. I am proud of my
-                            works and ready to face the next challenge
+                            I started this journey to share my passion for with you. At Qeat, we’re all about creating delicious, wholesome food that not only tastes great but also supports your well-being and the environment.
                         </p>
                         <p class="paragraph mb-6">
                             That is where I come
@@ -27,7 +26,7 @@
                             read them, calling your audience in and making them .</p>
 
                         <div>
-                            <img src="{% static 'web/images/signature.svg' %}" alt="signature">
+                            {% comment %} <img src="{% static 'web/images/signature.svg' %}" alt="signature"> {% endcomment %}
                         </div>
 
 
@@ -36,72 +35,6 @@
             </div>
         </section>
         <!-- About Me Sectin End -->
-
-
-
-        <!-- Experience Sectin Start -->
-        <section class="bg-white py-120 overflow-x-hidden">
-            <div class="container" data-aos="zoom-out">
-                <div class="about-grid-section-two">
-                    <div class="fw-bold font-Syne leading-none d-flex flex-wrap flex-column gap-y-2">
-                        <h3 class="text-dark section-title mb-5">
-                            My vision is to create happy my clients
-                        </h3>
-                        <p class="paragraph mb-7">
-                            That is where I come in. A lover of words, a wrangler of copy. Here to create copy that not
-                            only reflects who you are and what you stand for, but words that truly land with those that
-                            read them, calling your audience in and making them want more.
-                        </p>
-
-                        <ul class="award-lists d-flex flex-wrap p-0 list-unstyled">
-                            <li class="award-lists-item">
-
-                                <span class="text-dark text-32 fw-bold font-Syne position-relative">08</span>
-                                <p class="paragraph">Award winner</p>
-                            </li>
-                            <li class="award-lists-item">
-
-                                <span class="text-dark text-32 fw-bold font-Syne position-relative">1.2k</span>
-                                <p class="paragraph">Worldwide client</p>
-                            </li>
-                            <li class="award-lists-item">
-
-                                <span class="text-dark text-32 fw-bold font-Syne position-relative">3.5k</span>
-                                <p class="paragraph">Job done successfully</p>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="d-flex flex-column justify-content-end">
-                        <div class="d-flex flex-wrap flex-column years-of-experience mb-12">
-                            <span
-                                class="years-experience-of-number text-dark fw-bold font-Syne leading-none d-inline-block position-relative">12+</span>
-                            <span class="strock-text">Years of <br> experience</span>
-
-                        </div>
-
-                        <div class="bg-dark d-flex flex-wrap justify-content-between align-items-end say-hello-contact-box">
-                            <div class="d-flex flex-column flex-wrap gap-y-2">
-                                <span class="text-warning text-lg fw-normal leading-none">SAY HELLO!</span>
-                                <h4 class="text-white text-2xl fw-bold font-Syne leading-none mb-0">
-                                    hello@henry.com
-                                </h4>
-                            </div>
-                            <div class="d-flex flex-wrap justify-content-end">
-                                <a href="#" class="animate-arrow-up">
-                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M14 34L34 14" stroke="#FFB646" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M14 14H34V34" stroke="#FFB646" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Experience Sectin End -->
 
 
         <!-- Video Section Start -->
@@ -119,7 +52,6 @@
                                 </svg>
                             </a>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -131,20 +63,14 @@
         <section class="featured-properties">
             <div class="container" data-aos="zoom-out" data-aos-delay="800">
                 <div class="row">
-
                     <div class="col-12">
-
-                        <div class="fw-bold font-Syne text-center leading-none d-flex flex-wrap flex-column gap-y-2 mb-4">
-                           
-                            <h3 class="section-title text-dark mb-0">Business Journey
-                           
+                       <div class="fw-bold font-Syne text-center leading-none d-flex flex-wrap flex-column gap-y-2 mb-4">                           
+                            <h3 class="section-title text-dark mb-0">Business Journey                           
                             </h3>
-
-
 
                         </div>
                         <div class="tabs nav nav-pills flex-wrap justify-content-center gap-4 mt-8 mb-14">
-                            
+                           
                             <button class="tab-btn tab-btn justify-content-between align-items-center d-inline-flex" data-bs-toggle="pill" data-bs-target="#experience_tab">
                                 Experience
                                 <span class="inline-block animate-arrow-up">
@@ -156,20 +82,7 @@
                                     stroke-linecap="round" stroke-linejoin="round"></path>
                             </svg>
                         </span>
-                            </button>
-                            {% comment %} <button class="tab-btn tab-btn justify-content-between align-items-center d-inline-flex" data-bs-toggle="pill" data-bs-target="#education_tab">
-                                Education
-                                <span class="inline-block animate-arrow-up">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M7 17L17 7" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M7 7H17V17" stroke="currentColor" stroke-opacity="0.9" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
-                        </span>
-                            </button> {% endcomment %}
-                            
+                            </button>                            
                             <button class="tab-btn tab-btn justify-content-between align-items-center d-inline-flex" data-bs-toggle="pill" data-bs-target="#awards_tab">
                                 Awards
                                 <span class="inline-block animate-arrow-up">
@@ -191,19 +104,12 @@
                             <div id="about_me_tab" class="tab-pane fade show active position-relative">
                                 <div class="about-me-grid">
 
-                                    <img src="{% static 'web/images/about/about3.png' %}" alt="about me">
+                                    <img src="{% static 'web/images/about/hero2.png' %}" alt="about me">
                                     <div>
-                                        <h4 class="text-dark text-2xl based-in-german-title-tab fw-bold font-Syne">Based in
-                                            German
+                                        <h4 class="text-dark text-2xl based-in-german-title-tab fw-bold font-Syne">Ajmal Sha
                                         </h4>
-                                        <p class="paragraph mb-7">Mark Henry, <span class="text-dark">Product Designer</span>,
-                                            based
-                                            in
-                                            German. That is where I come in. A
-                                            lover of words, a wrangler of copy. Here to create copy that not only reflects who
-                                            you
-                                            are
-                                            and what you stand for,</p>
+                                        <p class="paragraph mb-7">Ajmal Sha, <span class="text-dark">(Founder,Qeat)</span>,
+                                            I started this journey to share my passion for with you. At Qeat, we’re all about creating delicious, wholesome food that not only tastes great but also supports your well-being and the environment.</p>
                                         <p class="paragraph mb-14">but words that truly land with those that read them, calling
                                             your
                                             audience
@@ -216,11 +122,8 @@
 
                             <div id="experience_tab" class="tab-pane fade position-relative">
                                 <h4 class="text-dark text-2xl based-in-german-title-tab fw-bold font-Syne">Experience</h4>
-
                                 <div class="tab-contents tab-contents-experience gap-x-4 gap-y-5">
-                                    {% for experience in experiences %}
-
-                                    
+                                    {% for experience in experiences %}                                    
                                     <div class="experience-tab-item d-flex flex-wrap flex-column gap-8 justify-content-between">
                                         <span class="text-sm fw-normal font-Inter leading-tight text-black-text-800">{{experience.startdate}}
                                     –
@@ -232,41 +135,6 @@
                                             </p>
                                         </div>
                                     </div>
-
-                                    {% comment %} <div class="experience-tab-item d-flex flex-wrap flex-column gap-8 justify-content-between">
-                                        <span class="text-sm fw-normal font-Inter leading-tight text-black-text-800">03/2008
-                                    – 07/2011</span>
-                                        <div>
-                                            <p class="dot text-lg fw-normal font-sans leading-7 text-dark position-relative">
-                                                Axtra</p>
-                                            <h4 class="fw-bold font-Syne leading-normal text-2xl text-dark">JavaScript
-                                                developer
-                                            </h4>
-                                        </div>
-                                    </div>
-
-                                    <div class="experience-tab-item d-flex flex-wrap flex-column gap-8 justify-content-between">
-                                        <span class="text-sm fw-normal font-Inter leading-tight text-black-text-800">03/2008
-                                    – 07/2011</span>
-                                        <div>
-                                            <p class="dot text-lg fw-normal font-sans leading-7 text-dark position-relative">
-                                                Axtra</p>
-                                            <h4 class="fw-bold font-Syne leading-normal text-2xl text-dark">Product
-                                                designer
-                                            </h4>
-                                        </div>
-                                    </div>
-
-                                    <div class="experience-tab-item d-flex flex-wrap flex-column gap-8 justify-content-between">
-                                        <span class="text-sm fw-normal font-Inter leading-tight text-black-text-800">03/2008
-                                    – 07/2011</span>
-                                        <div>
-                                            <p class="dot text-lg fw-normal font-sans leading-7 text-dark position-relative">
-                                                Axtra</p>
-                                            <h4 class="fw-bold font-Syne leading-normal text-2xl text-dark">UX researcher
-                                            </h4>
-                                        </div>
-                                    </div> {% endcomment %}
                                     {% endfor %}
                                 </div>
                             </div>
@@ -330,7 +198,6 @@
                                         </div>
                                     </div>
 
-
                                     <div class="d-flex flex-wrap gap-4 align-items-start skills-tab-item">
                                         <img class="items-start" src="{% static 'web/images/skills/figma.png' %}" alt="icons">
                                         <div class="flex flex-wrap gap-1 flex-1 flex-col">
@@ -377,38 +244,28 @@
 
                             <div id="awards_tab" class="tab-pane fade">
                                 <h4 class="text-dark text-2xl based-in-german-title-tab fw-bold font-Syne">Awards</h4>
-
                                 <div class="blog-grid">
                                     {% for award in awards  %}
                                     <!-- Blog Item Start -->
                                     <div class="blog-item" data-aos="zoom-in-up" data-aos-delay="600">
-                                        <div class="rounded-20 overflow-hidden mb-6">
-                                            
+                                        <div class="rounded-20 overflow-hidden mb-6">                                          
                                             <img class="w-100" src="{{award.image.url}}" alt="blog image">
                                         </div>
                                         <div class="d-flex flex-wrap flex-column gap-3">
-                                            <ul class="d-flex flex-wrap text-sm fw-normal font-Inter leading-tight p-0 list-unstyled m-0 p-0 list-unstyled m-0">
-                                               
-                
+                                            <ul class="d-flex flex-wrap text-sm fw-normal font-Inter leading-tight p-0 list-unstyled m-0 p-0 list-unstyled m-0">                                               
                                                 <li class="blog-meta-item">
                                                 {{award.date}}
-                                                </li>
-                
+                                                </li>                
                                             </ul>
                                             <div class="d-flex justify-content-between align-items-end text-dark blog-title-section">
                                                 <h6 class="fw-bold font-Syne transition-all leading-8 blog-title">
                                                     {{award.name}}
-                                                </h6>
-                                             
-                                            </div>
-                                            
+                                                </h6>                                            
+                                            </div>                                           
                                         </div>
                                     </div>
                                     {% endfor %}
-                                    <!-- Blog Item End -->
-                
-                                    
-                
+                                    <!-- Blog Item End -->                                                                
                                 </div>
                             </div>
 
@@ -418,7 +275,6 @@
             </div>
         </section>
         <!-- tabs end -->
-
 
 
         <!-- Brand Section Start-->

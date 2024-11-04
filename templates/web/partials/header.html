@@ -10,7 +10,8 @@
                 <div class="header-border-bottom d-flex align-items-center justify-content-between flex-grow-1">
 
                     <a href="{% url "web:index" %}">
-                        <img src="{% static 'web/images/logo/logo.png' %}" alt="logo">
+                        {% comment %} <img src="{% static 'web/images/logo/logo.png' %}" alt="logo"> {% endcomment %}
+                         <h4>Ajmal Sha</h4>
                     </a>
 
                     <!-- Link Start -->
@@ -48,8 +49,8 @@
 
             <div>
                 <div class="d-flex flex-wrap justify-content-between align-items-center offcanvas-header">
-                    <a href="index.html">
-                        <img src="{% static 'web/images/logo/offcanvas-logo.png' %}" alt="">
+                    <a href="{% url "web:index" %}">
+                        {% comment %} <img src="{% static 'web/images/logo/offcanvas-logo.png' %}" alt=""> {% endcomment %}
                     </a>
                     <button id="offcanvas-close" class="offcanvas-close bg-primary border-0" data-bs-dismiss="offcanvas" aria-label="Close">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

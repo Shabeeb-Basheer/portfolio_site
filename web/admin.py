@@ -6,12 +6,27 @@ class ContactAdmin(admin.ModelAdmin):
     list_display =  ("name", "phone")
 
 
-admin.site.register(Gallery)
-admin.site.register(Award)
-admin.site.register(GroupOfCompany)
+@admin.register(Gallery)
+class GalleryAdmin(admin.ModelAdmin):
+    list_display = ("name" ,)
+
+
+@admin.register(Award)
+class AwardAdmin(admin.ModelAdmin):
+    list_display = ("name" ,)
+
+
+@admin.register(GroupOfCompany)
+class GroupOfCompanyAdmin(admin.ModelAdmin):
+    list_display = ("name" ,)
+
+
 @admin.register(Blog)
 class BlogAdmin(admin.ModelAdmin):
     prepopulated_fields = {'slug': ('title',)}
     list_display = ('title',)
 
-admin.site.register(Experience)
+
+@admin.register(Experience)
+class ExperienceAdmin(admin.ModelAdmin):
+    list_display = ('name',)
